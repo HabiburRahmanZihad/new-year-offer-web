@@ -1,0 +1,29 @@
+/* set default fonts for the site */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Default Setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* Shared design (color - flex) */
+.display-flex {
+    display: flex;
+}
+
+/* Header */
