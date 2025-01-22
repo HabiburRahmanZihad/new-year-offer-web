@@ -145,7 +145,145 @@ section{
     max-width: 100%;
 }
 
+/* Welcome to midnight party */
+.midnight{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, 
+    rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), 
+    url(../images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+.midnight-text{
+    max-width: 58rem;
+}
+.midnight-text h1{
+    font-size: 5.33rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.midnight-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+.btn{
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.66rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+.midnight-img {
+    max-width: 100%;
+}
+.midnight-img img{
+    max-width: 100%;
+}
 
+/* Venue section */
+.venue{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    height: 482px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.venue-title{
+    font-family: Inter;
+    font-size: 2.7rem;
+    font-weight: 600;
+    /* padding: auto; */
+    line-height: 4rem;
+}
+
+.venue-btn{
+    border-radius: 0.7rem;
+    border: none;
+    background: rgb(255, 0, 0);
+    padding: 1rem 2rem;
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 8.34rem;
+}
+
+/* NEW BEST OFFER */
+.offer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer-content-1{
+    max-width: 32.75rem;
+}
+.offer-content-1 h5{
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.offer-content-1 h2{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-top: 1.33rem;
+    margin-bottom: 1.83rem;
+}
+
+.offer-content-1 p{
+    font-family: Inter;
+    font-size: 1.67rem;
+    font-weight: 400;
+}
+
+
+.offer-content-2{
+    background-image: url(../images/Red-Circle-Small-PNG-Pic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 38.58rem;
+    height: 38.58rem;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse-png{
+    max-width: 364px;
+    max-height: 364px;
+}
+.offer-content-2 img{
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.offer-content-3{
+    max-width: 23rem;
+}
+
+.offer-content-3 h2{
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+}
+    
+.offer-content-3 p{
+    font-family: Inter;
+    font-size: 1.67rem;
+    font-weight: 400;
+    margin-top: 1.34rem;
+    margin-bottom: 3.83rem;
+}
 
 
 /* responsive design for mobile */
@@ -172,9 +310,56 @@ section{
         font-size: 3rem;
         margin-bottom: 2rem;
     }
-    
+    .midnight{
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+    .midnight-text{
+        text-align: center;
+        width: 90%;
+    }
+    .midnight-img{
+        max-width: 100%;
+        text-align: center;
+    }
+    .midnight-img img{
+        max-width: 90%; 
+    }
+    .midnight-text h1{
+        font-size: 4.5rem;
+        margin-bottom: 1.8rem;
+    }
+    .midnight-text p{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .venue-title{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .venue-btn{
+        margin-top: 5rem;
+    }
+    .offer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem; 
+    }
+    .offer-content-2 {
+        width: 100%;
+        height: 100%;
+        /* background-size: contain; */
+    }
+    .ellipse-png {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .offer-content-2 img {
+        max-width: 90%;
+        max-height: 90%;
+    }
 }
-
 
 
 
@@ -193,5 +378,24 @@ section{
     .discount h1{
         margin-bottom: 2rem;
     }
-    
+    .midnight{
+        flex-direction: column;
+        height: auto;
+        gap: 3rem;
+    }
+    .midnight-text{
+        text-align: center;
+    }
+    .midnight-img{
+        max-width: 100%;
+        text-align: center;
+    }
+    .midnight-img img{
+        max-width: 90%; 
+    }
+    .offer-container{
+        flex-direction: column;
+        text-align: center;   
+        gap: 4rem;
+    }
 }
